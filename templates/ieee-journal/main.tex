@@ -1,0 +1,114 @@
+% IEEE Journal Paper Template
+% Compatible with Claude Research Paper OS
+
+\documentclass[journal]{IEEEtran}
+
+% ------- packages -------
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{textcomp}
+\usepackage{subcaption}
+
+\hypersetup{colorlinks=true, linkcolor=blue!60!black, citecolor=green!50!black, urlcolor=blue!70!black}
+
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{document}
+
+\title{Your Paper Title Here}
+
+\author{
+\makebox[\textwidth][c]{%
+\begin{minipage}[t]{0.45\textwidth}\centering
+\textbf{Author One}\\[2pt]
+{\scriptsize Department Name\\
+University Name\\
+City, Country\\
+\textit{email@university.edu}}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}\centering
+\textbf{Author Two}\\[2pt]
+{\scriptsize Department Name\\
+University Name\\
+City, Country\\
+\textit{email@university.edu}}
+\end{minipage}%
+}
+}
+
+\maketitle
+
+% ============================================================
+% ABSTRACT
+% ============================================================
+\begin{abstract}
+Your abstract goes here. 150-250 words for IEEE Access.
+\end{abstract}
+
+\begin{IEEEkeywords}
+keyword one, keyword two, keyword three
+\end{IEEEkeywords}
+
+% ============================================================
+% I. INTRODUCTION
+% ============================================================
+\section{Introduction}
+\label{sec:intro}
+
+Your introduction goes here.
+
+% ============================================================
+% II. RELATED WORK
+% ============================================================
+\section{Related Work}
+\label{sec:related}
+
+Your related work goes here.
+
+% ============================================================
+% III. METHODOLOGY
+% ============================================================
+\section{Methodology}
+\label{sec:methodology}
+
+Your methodology goes here.
+
+% ============================================================
+% IV. RESULTS
+% ============================================================
+\section{Results}
+\label{sec:results}
+
+Your results go here.
+
+% ============================================================
+% V. DISCUSSION
+% ============================================================
+\section{Discussion}
+\label{sec:discussion}
+
+Your discussion goes here.
+
+% ============================================================
+% VI. CONCLUSION
+% ============================================================
+\section{Conclusion}
+\label{sec:conclusion}
+
+Your conclusion goes here.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}
